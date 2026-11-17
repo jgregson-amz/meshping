@@ -23,7 +23,7 @@ suspicion timer fires in the same tick a higher-incarnation `Alive` refutation
 is applied, the timer still marks the node `Dead`, so a live peer is evicted.
 The minimal interleaving that reproduces it is recorded in
 `tests/fixtures/peer_trace.log:1`, and the crate's tests turn that interleaving
-into a failing test. The defect is at `src/lib.rs:40`.
+into a failing test. The defect is at `src/lib.rs:52`.
 
 ## License
 

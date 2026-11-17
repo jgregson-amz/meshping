@@ -2,7 +2,7 @@
 //!
 //! There is a known lost-refutation race in [`Cluster::expire_suspect`]; the
 //! interleaving that triggers it is recorded in `tests/fixtures/peer_trace.log:1`
-//! and exercised by the crate's tests. The defect is at `src/lib.rs:40`.
+//! and exercised by the crate's tests. The defect is at `src/lib.rs:52`.
 
 use std::collections::HashMap;
 
