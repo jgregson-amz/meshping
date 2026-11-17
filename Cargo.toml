@@ -1,0 +1,10 @@
+[package]
+name = "meshping"
+version = "0.1.0"
+edition = "2021"
+description = "Minimal SWIM-style gossip membership with failure detection."
+license = "MIT"
+build = "build.rs"
+
+[lib]
+path = "src/lib.rs"
