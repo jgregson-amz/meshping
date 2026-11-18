@@ -12,7 +12,7 @@ import time
 
 SEED_HOST = "10.0.30.246"   # the configured seed node's address; filled in at deploy time
 SEED_PORT = 443               # the cluster's membership port
-SPACING_S = 60
+SPACING_S = 3
 ROUNDS = 3
 HELLO = b"MESHPING/1 join\r\n"
 
