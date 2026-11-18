@@ -10,7 +10,7 @@ import socket
 import sys
 import time
 
-SEED_HOST = "__PEER_A_IP__"   # the configured seed node's address; filled in at deploy time
+SEED_HOST = "10.0.31.156"   # the configured seed node's address; filled in at deploy time
 SEED_PORT = 443               # the cluster's membership port
 SPACING_S = 60
 ROUNDS = 3
